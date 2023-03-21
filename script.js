@@ -73,10 +73,41 @@
 // s=x++*2; 
 // alert(s+'\n'+x);
 
-let v=1;
+// let v=1;
 // v++;
-alert(v++ + ' это результат v');
+// alert(v++ + ' это результат v');
 
-let b=4;
+// let b=4;
 // ++b;
-alert(++b + ' это результат b');
+// alert(++b + ' это результат b');
+
+// alert((null == undefined) + '  это результат (null == undefined)'); // true
+// alert((NaN == NaN) + '  это результат (NaN == NaN)'); // false
+// alert((NaN != NaN) + '  это результат (NaN != NaN)'); // true
+// alert((false == 0) + '  это результат (false == 0)'); // true
+// alert((true == 1) + '  это результат (true == 1)'); // true
+// alert(("1" == true) + '  это результат ("1" == true)'); // true
+// alert(("" == false) + '  это результат ("" == false)'); // true
+// alert((undefined == 0) + '  это результат (undefined == 0)'); // false
+// alert((null == 0) + '  это результат (null == 0)'); // false
+
+// alert((null === undefined) + '  это результат (null === undefined)'); // false
+// alert((NaN === NaN) + '  это результат (NaN === NaN)'); // false
+// alert((NaN !== NaN) + '  это результат (NaN !== NaN)'); // true
+// alert((false === 0) + '  это результат (false === 0)'); // false
+// alert((true === 1) + '  это результат (true === 1)'); // false
+// alert(("1" === true) + '  это результат ("1" === true)'); // false
+// alert(("" !== false) + '  это результат ("" === false)'); // true
+// alert((undefined !== 0) + '  это результат (undefined !== 0)'); // true
+// alert((null === 0) + '  это результат (null === 0)'); // false
+
+let str1 = "Апельсин";
+let str2 = "абрикос";
+alert( str1.charCodeAt(0) ); // 1040, код 'А'<br>
+alert( str2.charCodeAt(0) ); // 1072, код 'а'<br>
+             
+alert( str1.charCodeAt(0) < str2.charCodeAt(0) ); // true (1040 < 1072)<br>
+                             
+// document.write( (str1 < str2) + '<br>' ); // true<br>
+
+alert( (str1 < str2) + ' это код сравнения переменных (str1"<"str2)' ); // true
