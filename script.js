@@ -101,13 +101,20 @@
 // alert((undefined !== 0) + '  это результат (undefined !== 0)'); // true
 // alert((null === 0) + '  это результат (null === 0)'); // false
 
-let str1 = "Апельсин";
-let str2 = "абрикос";
-alert( str1.charCodeAt(0) ); // 1040, код 'А'<br>
-alert( str2.charCodeAt(0) ); // 1072, код 'а'<br>
+//  let str1 = "Апельсин";
+//  let str2 = "абрикос";
+// alert( str1.charCodeAt(0) ); // 1040, код 'А'<br>
+// alert( str2.charCodeAt(0) ); // 1072, код 'а'<br>
              
-alert( str1.charCodeAt(0) < str2.charCodeAt(0) ); // true (1040 < 1072)<br>
+// alert( str1.charCodeAt(0) < str2.charCodeAt(0) ); // true (1040 < 1072)<br>
                              
 // document.write( (str1 < str2) + '<br>' ); // true<br>
 
-alert( (str1 < str2) + ' это код сравнения переменных (str1"<"str2)' ); // true
+// alert( (str1 < str2) + ' это код сравнения переменных (str1"<"str2)' ); // true
+
+const userName = 'Боб';
+if (Boolean(userName)) {
+  alert(`Привет,  ${userName} !`);
+} else {
+  alert('Привет, гость!');
+}
