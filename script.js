@@ -112,9 +112,36 @@
 
 // alert( (str1 < str2) + ' это код сравнения переменных (str1"<"str2)' ); // true
 
-const userName = 'Боб';
-if (Boolean(userName)) {
-  alert(`Привет,  ${userName} !`);
-} else {
-  alert('Привет, гость!');
-}
+// const userName = 'Боб';
+// if (Boolean(userName)) {
+//   alert(`Привет,  ${userName} !`);
+// } else {
+//   alert('Привет, гость!');
+// }
+
+// let name = 2>3 ? 'Marina' : 'Dasha';
+// alert(name);
+
+// let array = [1,2,3];
+// alert(15 in array); // false
+// alert(1 in array);
+
+// let array1 = [];
+// alert(array1 instanceof Array); // true
+// alert({} instanceof Object); // true
+
+// let c = (6 > 8) ^ (6 > 7);
+// alert(c);
+
+// let b = (6 > 5) || (7 > 4);
+// alert(b);
+
+let hello= 'Привет';
+alert(hello);
+
+let page = 'Это старница обучения JS';
+ 
+let form = 'Весь указанный на странице код рабочий и его можно проверить раскомментировав его';
+let forml= 'Но будь осторожен и внимателен :)';
+ alert(page + " " + "\n" + forml);
+ alert(form);

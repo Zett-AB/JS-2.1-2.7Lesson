@@ -27,8 +27,23 @@
         font-style: normal; 
         font-weight: normal;
 }
-
+body{
+    background-color: blanchedalmond;
+}
 p{
     font-size: 17px;
     font-family: Montserrat Alternates;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Philosopher;
+}
+header{
+    text-align: center;
+}
+li{
+    font-size: 17px;
+    font-family: Montserrat Alternates;
+}
+section{
+    padding-left: 40px;
 }
